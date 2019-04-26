@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+:root {
+  --mainWhite: #fff;
+  --mainBlack: #333;
+  --mainGrey: #f5f6fa;
+  --mainRed: #d63031;
+  --mainRedd: #eb3b5a;
+  --mainGreen: #05a081;
+  --mainDarkgreen: #00402e;
+  --mainBlue: #2c3e50;
+  --mainSkyblue: #00b1e4;
+  --primaryBlue: #00b5ec;
+  --primaryGreen: #00b894;
+  --mainTurquoise: #12cbc4;
+  --secGreen: #21d192;
+  --primaryGrey: #ecf0f1;
+  --mainSilver: #bdc3c7;
+  --lightPurple: #9c88ff;
+  --mainAsh: #f1f2f6;
+  --facebook: #4267b2;
+  --twitter: #38a1f3;
+  --grain: #d7cec7;
+  --oxblood: #76323f;
+}
+
+/* --------Contact Start------------------ */
+#jumbotron-area {
+  background-image: url(../../images/header-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.navbar li a {
+  color: var(--mainAsh) !important;
+  font-size: 18px;
+}
+
+.navbar li a:hover {
+  color: var(--mainDarkgreen) !important;
+}
+
+.nav-area {
+  background: var(--primaryGreen);
+}
+
+#nav-section {
+  margin-top: -50px;
+}
+
+#nav-section .navbar-brand {
+  font-size: 26px;
+}
+
+/*-------info Description Start ---------*/
+
+/*----------Blog Area Start-------------- */
+.category li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.blog-post li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.blog-post a {
+  text-decoration: none;
+}
+
+.btn-comment {
+  padding: 10px;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin: 15px;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 0px;
+  outline: none !important;
+}
+
+#submit-comment .form-group input[type="text"],
+#submit-comment .form-group input[type="email"] {
+  padding: 25px;
+  outline: none !important;
+}
+/*----------Blog Area End--------------*/
+
+/*----------Side Blog Menu Start------------*/
+.btn-fb {
+  background: var(--facebook);
+  color: #fff;
+  border-radius: 0px;
+  padding: 10px 0;
+}
+
+.btn-tw {
+  background: var(--twitter);
+  color: #fff;
+  border-radius: 0px;
+  padding: 10px 0;
+}
+
+.btn-yt {
+  background: var(--mainRed);
+  color: #fff;
+  border-radius: 0px;
+  padding: 10px 0;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+.card {
+  border-radius: 0px;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.btn-subscribe {
+  border-radius: 0px;
+}
+
+.form-control {
+  border-radius: 0px;
+}
+/*----------Side Blog Menu End------------*/
+
+.description {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 20px;
+  width: 100%;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--mainAsh);
+  color: black;
+  height: 50%;
+}
+
+/*-------info Description End ---------*/
+
+/* --------Contact Start------------------ */
+#contact {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#contact .container .contact-heading {
+  color: #000;
+  font-size: 35px;
+}
+
+#contact .container .contact-subheading {
+  color: #000;
+  font-size: 16px;
+}
+
+#contact .container .form-group input[type="text"],
+#contact .container .form-group input[type="email"],
+#contact .container .form-group input[type="tel"] {
+  padding: 30px;
+  outline: none !important;
+}
+
+#contact .container .form-group textarea {
+  height: 220px;
+}
+
+#contact .container .form-control {
+  border-radius: 0px;
+}
+
+::placeholder {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#contact .container .btn {
+  padding: 10px;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin: 15px;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 0px;
+  background: var(--secGreen);
+  outline: none !important;
+}
+
+/*------------Contact End----------------- */
+
+/* --------Footer Start------------------ */
+.footer {
+  background-color: #f1f2f6;
+  color: var(--mainBlack);
+}
+
+.footer a {
+  color: var(--mainBlack);
+}
+.footer-top {
+  background-color: var(--secGreen);
+}
+
+.footer-top-text {
+  color: var(--mainGrey);
+}
+
+.social-icon {
+  color: var(--mainWhite);
+}
+
+.footer-links {
+  background-color: var(--mainAsh);
+}
+
+.footer-copyright {
+  background-color: var(--mainSilver);
+}
+
+/*------------Footer End----------------- */
